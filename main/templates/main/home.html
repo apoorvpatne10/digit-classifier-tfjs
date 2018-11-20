@@ -110,8 +110,8 @@
                 canvas.addEventListener('touchend', sketchpad_touchEnd, false);
                 canvas.addEventListener('touchmove', sketchpad_touchMove, false);
             }
-            // model = await tf.loadModel("{% static 'model.json' %}");
-            model = await tf.loadModel("https://raw.githubusercontent.com/apoorvpatne10/digit-classifier-tfjs/master/static/model.json");
+            model = await tf.loadModel("{% static 'model.json' %}");
+            // model = await tf.loadModel("https://raw.githubusercontent.com/apoorvpatne10/digit-classifier-tfjs/master/static/model.json");
         }
 
 
