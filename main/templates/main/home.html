@@ -1,3 +1,4 @@
+{% load static %}
 <html>
 
 <head>
@@ -136,7 +137,7 @@
                 canvas.addEventListener('touchend', sketchpad_touchEnd, false);
                 canvas.addEventListener('touchmove', sketchpad_touchMove, false);
             }
-            const model = await tf.loadModel('model.json');
+            const model = await tf.loadModel("{% static 'model.json' %}");
         }
 
 
