@@ -1,3 +1,3 @@
 # digit-classifier-tfjs
 
-Access demo [here](https://tfjs-classifier.herokuapp.com/). (under maintenance)
+Access demo [here](https://tfjs-classifier.herokuapp.com/).
